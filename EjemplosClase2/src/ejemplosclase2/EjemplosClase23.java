@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Salas
  */
-public class EjemplosClase22 {
+public class EjemplosClase23 {
 
     /**
      * @param args the command line arguments
@@ -39,9 +39,13 @@ public class EjemplosClase22 {
         System.out.println("Por favor ingrese su ciudad");
         ciudad = entrada.nextLine();
         
+        /**
         System.out.println("Su nombre es:"+nombre+"\n\n\t"+"Su apellido es:"
                 +apellido+", edad: "+edad+"\nCiudad: "+ciudad);
+        */
         
+        System.out.printf("Su nombres son %s\n\n\tSus apellidos son %s,edad %s"
+                +"\nCiudad %s", nombre, apellido, edad, ciudad);
     }
     
 }
